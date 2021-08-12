@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="c_primer_plus">
+      <UniqueIdentifier>{eff4446c-e754-40d8-b00d-d2515c4f055e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Users\Administrator\Desktop\hello_world_test.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_1_13.c">
+      <Filter>c_primer_plus</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
