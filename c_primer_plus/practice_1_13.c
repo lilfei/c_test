@@ -7,7 +7,7 @@ void review_2_11_9(void);
 /*
 	double类型接收输入时使用%lf，输出可以使用%f
 */
-int main(void) {
+int main11(void) {
 
 	double inch;
 	printf("请输入英寸：");
