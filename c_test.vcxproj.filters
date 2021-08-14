@@ -27,5 +27,8 @@
     <ClCompile Include="c_primer_plus\practice_4.8.c">
       <Filter>c_primer_plus</Filter>
     </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_5_11.c">
+      <Filter>c_primer_plus</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
