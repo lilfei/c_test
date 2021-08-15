@@ -52,7 +52,7 @@ int main3(void) {
 	printf("%f can be written %e\n", abet, abet);
 	printf("%Lf can be written %Le\n", dip, dip);
 
-	// 转义 \b退格  \t制表  \r回车
+	// 转义 \b退格  \t水平制表 \v垂直制表 \r回车
 	float salary;
 	printf("\aEnter your desired mnothly salary:");
 	printf(" $_______\b\b\b\b\b\b\b");
