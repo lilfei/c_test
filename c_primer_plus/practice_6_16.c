@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <math.h>
 
 double power(double n, int p);
 void review(void);
+void practice(void);
 
-int main(void) {
+int main6(void) {
 
 #if 0
 	double x, xpow;
@@ -29,7 +31,11 @@ int main(void) {
 	printf("Hope you enjoyed this power trip!\n");
 #endif
 
+#if 0
 	review();
+#endif
+
+	practice();
 
 	return 0;
 }
@@ -55,4 +61,76 @@ void review(void)
 		printf("Bye! ");
 	} while (i++ < 8);
 	
+}
+
+// 6.16
+void practice(void)
+{
+#if 0
+	// 1
+	char codeArr[26];
+	char start = 'a';
+	int i = 0;
+	for (; i < 26; i++) {
+		codeArr[i] = start + i;
+	}
+	i = 0;
+	for (; i < 26; i++) {
+		printf("%c", codeArr[i]);
+	}
+
+	// 2
+	printf("\n===================\n");
+	int j = 1;
+	i = 0;
+	for (; j <= 5; j++) {
+		for (i = 0; i < j; i++) {
+			printf("$");
+		}
+		printf("\n");
+	}
+	
+	// 3
+	printf("\n===================\n");
+	start = 'F';
+	i = 0;
+	j = 1;
+	for (; j <= 6; j++) {
+		for (i = 0; i < j; i++) {
+			printf("%c", start - i);
+		}
+		printf("\n");
+	}
+
+	// 4
+	printf("\n===================\n");
+	start = 'A';
+	for (i = 0; i < 7; i++) {
+		for (j = 0; j < i; j++) {
+			printf("%c", start++);
+		}
+		printf("\n");
+	}
+#endif
+	// 5 打印字母金字塔
+	printf("\n===================\n");
+	char inputCode;
+	printf(" Pleasy Enter a Upcase Code:\n");
+	scanf("%c", &inputCode);
+	int lines = inputCode - 'A' + 1;
+	int spaceCount = lines - 1;
+	for (int line = 0; line < lines; line++) {
+		for (int space = 0; space < spaceCount; space++) {
+			printf(" ");
+		}
+		int curCodes = (lines - spaceCount) * 2 - 1;  // 当前行所有字母数
+		for (int rowCode = 0; rowCode < curCodes; rowCode++) {
+			printf("%c", inputCode - spaceCount - abs(rowCode - ((curCodes - 1) / 2)));
+		}
+		for (int space = 0; space < spaceCount; space++) {
+			printf(" ");
+	    }
+		spaceCount--;
+		printf("\n");
+	}
 }

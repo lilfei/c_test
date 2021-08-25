@@ -33,5 +33,8 @@
     <ClCompile Include="c_primer_plus\practice_6_16.c">
       <Filter>c_primer_plus</Filter>
     </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_10_13.c">
+      <Filter>c_primer_plus</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
