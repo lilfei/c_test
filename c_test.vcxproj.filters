@@ -36,5 +36,25 @@
     <ClCompile Include="c_primer_plus\practice_10_13.c">
       <Filter>c_primer_plus</Filter>
     </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_12_9.c">
+      <Filter>c_primer_plus</Filter>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\diceroll.c">
+      <Filter>c_primer_plus</Filter>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_14_18.c">
+      <Filter>c_primer_plus</Filter>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_15_9.c">
+      <Filter>c_primer_plus</Filter>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_16.c">
+      <Filter>c_primer_plus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_primer_plus\diceroll.h">
+      <Filter>c_primer_plus</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

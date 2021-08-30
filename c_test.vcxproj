@@ -19,7 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="c_primer_plus\diceroll.c">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
+    </ClCompile>
     <ClCompile Include="c_primer_plus\practice_10_13.c" />
+    <ClCompile Include="c_primer_plus\practice_12_9.c">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_14_18.c">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_15_9.c">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
+    </ClCompile>
+    <ClCompile Include="c_primer_plus\practice_16.c">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
+    </ClCompile>
     <ClCompile Include="c_primer_plus\practice_1_13.c">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
@@ -40,6 +60,9 @@
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_primer_plus\diceroll.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

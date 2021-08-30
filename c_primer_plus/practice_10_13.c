@@ -11,7 +11,7 @@ int order(void);
 
 int zippo(void);
 
-int main(void) {
+int main10(void) {
 
 #if 0
 	int marbles[SIZE] = { 20,10,5,49,4,16,18,26,31,20 };
